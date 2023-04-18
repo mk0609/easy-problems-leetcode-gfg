@@ -1,0 +1,22 @@
+class Solution {
+public:
+    string mergeAlternately(string word1, string word2) {
+        // find the age of the given string to run loop
+        int n=word1.size();
+        int n1=word2.size();
+        
+        // created an empty string to store the answer
+        string ans="";
+        int i=0;
+        while(i < n || i < n1){
+                if(i<n){
+                    ans+=word1[i];
+                }
+                if(i<n1){
+                    ans+=word2[i];
+                }
+            i++;     
+            } 
+        return ans;
+    }
+};
