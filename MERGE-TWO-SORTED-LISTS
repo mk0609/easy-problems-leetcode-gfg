@@ -1,4 +1,4 @@
-//Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.//
+//Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists...//
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
