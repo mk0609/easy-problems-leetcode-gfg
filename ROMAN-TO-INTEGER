@@ -1,4 +1,4 @@
-//convert roman to integer...//
+//Convert roman to integer...//
 class Solution {
 public:
     int romanToInt(string s) {
